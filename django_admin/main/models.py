@@ -17,7 +17,7 @@ class Players(models.Model):
 class Logs(models.Model):
     id = models.AutoField(primary_key=True)
     log_text = models.CharField(max_length=400, blank=True, null=True)
-    created_at = models.CharField(max_length=400, blank=True, null=True)  #в БД это VARCHAR !
+    created_at = models.DateTimeField(blank=True, null=True)
 
     class Meta:
         managed = False
