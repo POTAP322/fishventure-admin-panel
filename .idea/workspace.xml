@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31daa0bc-c680-458f-8275-78ece3ab30dc" name="Changes" comment="feat(FISH-57): базовая админ панель для БД">
+    <list default="true" id="31daa0bc-c680-458f-8275-78ece3ab30dc" name="Changes" comment="chore: убрана небольшая ошибка в моделях">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_admin/django_admin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_admin/django_admin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_admin/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_admin/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_admin/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_admin/main/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745524479051</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: убрана небольшая ошибка в моделях">
+      <option name="closed" value="true" />
+      <created>1745578499564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745578499564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(FISH-57): базовая админ панель для БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(FISH-57): базовая админ панель для БД" />
+    <MESSAGE value="chore: убрана небольшая ошибка в моделях" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: убрана небольшая ошибка в моделях" />
   </component>
 </project>

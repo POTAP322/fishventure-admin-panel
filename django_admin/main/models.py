@@ -6,9 +6,10 @@ class Players(models.Model):
     hash_password = models.CharField(max_length=100)
     auth_token = models.CharField(max_length=100, blank=True, null=True)
     created_at = models.DateTimeField(blank=True, null=True)
+    birth_date = models.DateField(blank=True, null=True)
 
     class Meta:
-        managed = False  # Чтобы Django не управлял миграциями для этой таблицы
+        managed = False  #чтобы Django не управлял миграциями для этой таблицы
         db_table = 'Players'
 
     def __str__(self):
@@ -28,9 +29,7 @@ class Logs(models.Model):
 
 class PlayerLogs(models.Model):
     id = models.AutoField(primary_key=True)
-    Players_id = models.ForeignKey(Players, on_delete=models.CASCADE, db_column='Players_id')  # Внешний ключ
-    log_text = models.CharField(max_length=400, blank=True, null=True)
-    created_at = models.DateTimeField(blank=True, null=True)
+    Player_id = models.ForeignKey(Players, on_delete=models.CASCADE, db_column='Player_id')
     entered_at = models.DateTimeField()
     exit_at = models.DateTimeField()
 
