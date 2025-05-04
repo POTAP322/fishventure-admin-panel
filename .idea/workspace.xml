@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31daa0bc-c680-458f-8275-78ece3ab30dc" name="Changes" comment="feat(FISH-64): изменены модели в соответствии с базой данных">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_admin/django_admin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_admin/django_admin/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/dima/PycharmProjects/fishventure-admin-panel"
   }
 }]]></component>

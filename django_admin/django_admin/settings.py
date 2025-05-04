@@ -77,9 +77,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'fishventure_db',
-        'USER': 'root',
-        'PASSWORD': 'gh245hyt',
-        'HOST': '127.0.0.1',
+        'USER': 'admin',
+        'PASSWORD': 'ker452dss',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
