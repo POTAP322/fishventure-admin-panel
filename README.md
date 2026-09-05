@@ -1,6 +1,3 @@
-## 2. fishventure-admin-panel (Django Admin)
-
-```markdown
 # FishVenture Admin Panel
 
 Административная панель для управления проектом FishVenture. Реализована на **Django** с использованием встроенного **Django Admin** и кастомизированных интерфейсов.
